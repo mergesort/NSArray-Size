@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage     = 'https://github.com/mergesort/NSArray-Size'
   spec.author       =  { 'Joe Fabisevich' => 'github@fabisevi.ch' }
-  spec.summary      = 'Create and check whether NSArray's are of a certain size. Great for datasources and forms.'
+  spec.summary      = 'Create and check whether NSArrays are of a certain size. Great for datasources and forms.'
   spec.source       =  { :git => 'https://github.com/mergesort/NSArray-Size.git', :tag => "#{spec.version}" }
   spec.source_files = '*.{h,m}'
   spec.framework    = 'Foundation'
